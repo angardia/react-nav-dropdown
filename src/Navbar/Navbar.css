@@ -1,0 +1,45 @@
+.Navbar {
+    height: var(--nav-size);
+    background-color: var(--bg-color);
+    display: flex;
+}
+
+.Navbar-navlist {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex: 0 0 70%;
+}
+
+.Navbar-search{
+    flex: 0 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}   
+
+.Navbar_Input {
+        color: black;
+        font-family: inherit;
+        font-size: inherit;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        padding: .7rem .2rem;
+        border-radius: 100px;
+        width: 70%;
+        margin-right: -3.5rem;
+}
+.Navbar_Input:focus {
+            outline: none;
+            width: 80%;
+        }
+
+.Navbar_Icon {
+        border: none;
+        background-color: transparent;   
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Dropdown from './Dropdown/Dropdown';
+import Navbar from './Navbar/Navbar';
+import Navitem from './Navbar/NavItem/Navitem';
+
+import { ReactComponent as Write } from "./icons/write.svg";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar>
+        <Navitem icon={<Write />}/>
+        <Navitem icon={<Write />}/>
+        <Navitem icon={<Write />}/>
+        <Navitem icon={<Write />}>
+          <Dropdown></Dropdown>
+        </Navitem>
+      </Navbar>
     </div>
   );
 }

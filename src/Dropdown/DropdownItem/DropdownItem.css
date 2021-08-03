@@ -1,0 +1,14 @@
+.DropdownItem {
+    color:white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: background 5ms;
+    padding: 0.5rem;
+}
+.DropdownItem:hover{
+    color: black;
+    background-color: #808080;
+} 
