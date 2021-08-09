@@ -1,0 +1,11 @@
+.DropdownList{
+    position: absolute;
+    overflow: hidden;
+    padding: 1rem;
+    top: 6.25rem;
+    width: 18.75rem;
+    transform: translateX(-5%);
+    border: var(--border);
+    border-radius:8px;
+    background-color: black;
+}

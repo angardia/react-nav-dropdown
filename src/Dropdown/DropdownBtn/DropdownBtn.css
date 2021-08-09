@@ -1,0 +1,18 @@
+.DropdownBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--icon-bg-color);
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    padding: .313rem;
+    margin: .313rem;
+}
+
+.DropdownBtn_Wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--nav-size) * 0.8);
+}
