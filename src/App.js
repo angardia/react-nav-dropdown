@@ -10,12 +10,10 @@ function App() {
   return (
     <div>
       <Navbar>
-        <Navitem icon={<Write />}/>
-        <Navitem icon={<Write />}/>
-        <Navitem icon={<Write />}/>
-        <Navitem icon={<Write />}>
-          <Dropdown></Dropdown>
-        </Navitem>
+        <Navitem icon={<Write />} />
+        <Navitem icon={<Write />} />
+        <Navitem icon={<Write />} />
+        <Dropdown />
       </Navbar>
     </div>
   );
